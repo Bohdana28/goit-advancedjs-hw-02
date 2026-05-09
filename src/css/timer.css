@@ -1,0 +1,64 @@
+main {
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+#datetime-picker{
+  width: 272px;
+  height: 40px;
+  padding: 8px 16px;
+  border: 1px solid rgba(128, 128, 128, 1);
+  border-radius: 4px;
+  outline: none;
+  margin-right: 8px;
+  color: rgba(46, 47, 66, 1);
+}
+
+.start-btn{
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: rgba(78, 117, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  transition: background-color 250ms ease-in-out;
+}
+
+.start-btn:hover {
+  background-color: rgba(108, 140, 255, 1);
+}
+
+.start-btn:disabled{
+  background-color: rgba(207, 207, 207, 1);
+  color: rgba(152, 152, 152, 1)
+}
+
+.timer {
+  display: flex;
+  gap: 24px;
+  margin-top: 10px;
+  width: fit-content;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.12;
+}
+
+.value {
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04;
+}
+
+.label {
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0em;
+  color: rgba(46, 47, 66, 1);
+}

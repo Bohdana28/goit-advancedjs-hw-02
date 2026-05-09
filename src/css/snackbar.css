@@ -1,0 +1,52 @@
+.form {
+  width: 360px;
+}
+
+.form > label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+  letter-spacing: 0.04em;
+}
+
+.delay-input,
+.radio-group{
+  border: 1px solid rgba(128, 128, 128, 1);
+  border-radius: 4px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding: 8px 16px;
+  outline: none;
+}
+
+.delay-input:hover,
+.radio-group:hover,
+.radio-group:active{
+  border-color: rgba(0, 0, 0, 1);
+}
+
+.delay-input:focus {
+  border-color: rgba(78, 117, 255, 1);
+}
+
+input[type="radio"] {
+  accent-color: rgba(78, 117, 255, 1);
+  /* Set this to your desired color */
+}
+
+.submit-btn {
+  width: 100%;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: none;
+  background-color: rgba(78, 117, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  margin-top: 24px;
+}
+
+.submit-btn:hover{
+  background-color: rgba(108, 140, 255, 1);
+}
